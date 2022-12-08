@@ -1,0 +1,81 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.card {
+    border: 3px;
+    border-radius: 10%;
+    border-style: dotted;
+    width: 300px;
+    text-align: center;
+    display: inline-flex;
+}
+
+card-header {
+    border: 1px;
+    border-radius: 10%;
+    background-color: blueviolet;
+
+}
+
+h2 {
+        position: relative;
+        margin-top: -50px;
+        margin-left: 90px;
+        z-index: 1;
+        background-color: aquamarine;
+        width: 150px;
+        height: 56px;
+        border: 1px;
+        border-style: groove;
+        border-radius: 10%;
+        text-align: center;
+}
+
+/* TODO: 
+card formatting: user select property, 
+
+Linear gradient funtion for bg color
+
+CSS transition Property
+
+Media Queries: 992px + refer to Image 1, 
+768px-991px refer to image 2,
+767 - refer to image 3
+*/
+
+/*Desktop
+
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 
+    }
+}
+*/
+
+/* tablet
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 100%
+    }
+}
+
+*/
+
+/* Phone
+
+@media only screen and (min-width: 767px) {
+    .card{
+        width: ??
+    }
+}
+*/
+
+
+
+
